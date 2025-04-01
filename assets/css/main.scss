@@ -1,0 +1,135 @@
+---
+---
+
+@import "no-style-please";
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: green;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.center-screen {
+  width: 640px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cv_subtitle { color: grey;}
+
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-container > div {
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.ul-inline {
+  width: 300px;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.row:before {
+  display:table;
+  content:" "
+}
+
+.list-inline {
+  justify-content: center;
+  float: left;
+  display: inline;
+  overflow: hidden;
+}
+
+.footer a {
+  float: left;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footer a:hover {
+  color: green;
+}
+
+.footer a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.fa {
+  display:inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+
+.fa-lg {
+  font-size:1.33333333em;
+  line-height:.75em;
+  vertical-align:-15%
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center
+}
+
+.fa-stack-1x {
+  line-height:inherit
+}
+
+.fa-stack-2x {
+  font-size:2em
+}
+
+.fa-inverse {
+  color:#fff
+}
+
+.fa-github:before {
+  content:"\f09a";
+}
+
+.row {
+  overflow-wrap: break-word;
+  margin-right:-15px;
+  margin-left:-15px
+}
