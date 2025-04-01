@@ -1,10 +1,6 @@
 title: "Welcome To Pradise!" # name of the site
 author: Siavash Khalvati # name of site's author
-<<<<<<< HEAD
   #url: http://ciavash.info # root address of the site
-=======
-url: https://ciavash.info # root address of the site
->>>>>>> 91729404672bdb6e83dae3dac03702f9d35b67c1
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   A (nearly) no-CSS, fast, minimalist Jekyll theme
